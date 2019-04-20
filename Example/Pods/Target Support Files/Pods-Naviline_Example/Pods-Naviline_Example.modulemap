@@ -1,0 +1,6 @@
+framework module Pods_Naviline_Example {
+  umbrella header "Pods-Naviline_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Naviline {
+  umbrella header "Naviline-umbrella.h"
+
+  export *
+  module * { export * }
+}

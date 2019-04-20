@@ -1,0 +1,16 @@
+PODS:
+  - Naviline (0.1.0)
+
+DEPENDENCIES:
+  - Naviline (from `../`)
+
+EXTERNAL SOURCES:
+  Naviline:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Naviline: 1cc1b0168fb9c168d609be4ec151586253e785ba
+
+PODFILE CHECKSUM: db3e6906585a2720f095fb185fc3419b8dbdbedf
+
+COCOAPODS: 1.6.1

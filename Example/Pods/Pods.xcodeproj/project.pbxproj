@@ -1,0 +1,802 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		098C2231313FCD9E779E7F885ABA2D34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		43F39C2C89511E72078742A60D7EA0F2 /* Pods-Naviline_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA02C90CA2BAC8CCC850590741335E0 /* Pods-Naviline_Example-dummy.m */; };
+		5FE3380DD5A2A1C870E95A2E1BB2CF6E /* Pods-Naviline_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A290C396CE0FC87397AA2363DE65E51C /* Pods-Naviline_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63DB7FE5864117115B1753E2D4FA3BF9 /* Pods-Naviline_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B062CCBF1E1975D3674B64C3C170D1D3 /* Pods-Naviline_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92A77B57DF8A6A00DCBD10EF44AD7880 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		9446BE73CB9515E682744AFFC588C337 /* Naviline.swift in Sources */ = {isa = PBXBuildFile; fileRef = F625BFD822D738CE78D50294C51E3527 /* Naviline.swift */; };
+		B3FDFE9B226B6246002437BA /* NavilineConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FDFE9A226B6246002437BA /* NavilineConfigurator.swift */; };
+		B3FDFE9C226B6246002437BA /* NavilineConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FDFE9A226B6246002437BA /* NavilineConfigurator.swift */; };
+		B3FDFE9D226B6246002437BA /* NavilineConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FDFE9A226B6246002437BA /* NavilineConfigurator.swift */; };
+		B3FDFE9F226B624C002437BA /* house-black-silhouette-without-door.pdf in Resources */ = {isa = PBXBuildFile; fileRef = B3FDFE9E226B624C002437BA /* house-black-silhouette-without-door.pdf */; };
+		B3FDFEA0226B624C002437BA /* house-black-silhouette-without-door.pdf in Resources */ = {isa = PBXBuildFile; fileRef = B3FDFE9E226B624C002437BA /* house-black-silhouette-without-door.pdf */; };
+		B3FDFEA1226B624C002437BA /* house-black-silhouette-without-door.pdf in Resources */ = {isa = PBXBuildFile; fileRef = B3FDFE9E226B624C002437BA /* house-black-silhouette-without-door.pdf */; };
+		D7F86FD815FC7C37E4E383DD01658AB0 /* Naviline-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 82657F2A099293FD0BE7B7D36DD2F751 /* Naviline-dummy.m */; };
+		D89D24346F20F119DC942429B6F08EC7 /* Naviline-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DEEADF29A50A5384358CAC9FCA3AC48A /* Naviline-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E041539C131CCFEC5D9983E1E1278EF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		FA311C048AFA9F68C611E3968D48C73A /* Pods-Naviline_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B99B270D9AB3B0E775DB929A339771 /* Pods-Naviline_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		08E6109FB2BE90E4A8D995781C01A1DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A0B2C25D90FF2B1AFFA8DDE4C96DCE2;
+			remoteInfo = Naviline;
+		};
+		30C985EA00295E2C93749436517DDFC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58F3FB34E9E5A6810E628252E425F56C;
+			remoteInfo = "Pods-Naviline_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0EEF213B3B3C9660E1D710A56AB65039 /* Pods-Naviline_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Naviline_Example-Info.plist"; sourceTree = "<group>"; };
+		10E2E3756FC19EC96A9C74DD975C91B0 /* Naviline-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Naviline-prefix.pch"; sourceTree = "<group>"; };
+		18B99B270D9AB3B0E775DB929A339771 /* Pods-Naviline_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Naviline_Tests-dummy.m"; sourceTree = "<group>"; };
+		2E5327D4E0C5CDE990E18B01684252BB /* Naviline.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Naviline.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		318DBDEF8FB693555483EB3CAFD1C742 /* Pods-Naviline_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Naviline_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		389D2B0802213CAA5383955A5609DB27 /* Pods-Naviline_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Naviline_Example-frameworks.sh"; sourceTree = "<group>"; };
+		41972FDD6D3962FDEDF86EF71BCF3BB2 /* Pods-Naviline_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Naviline_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		41D351B38B1541AF444E102FF5619B6A /* Naviline.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Naviline.modulemap; sourceTree = "<group>"; };
+		50737D0BBAA0CE7EF340CBA3F4895637 /* Pods-Naviline_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Naviline_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		70C9F97E92F4017B656A2CF13270D7E1 /* Pods-Naviline_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Naviline_Example.modulemap"; sourceTree = "<group>"; };
+		82657F2A099293FD0BE7B7D36DD2F751 /* Naviline-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Naviline-dummy.m"; sourceTree = "<group>"; };
+		82D614BCE5AA5373C65ACED5F24B39C1 /* Pods-Naviline_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Naviline_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8A6AADD6E038F98B841AD5D91EDF4F14 /* Pods-Naviline_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Naviline_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8EA02C90CA2BAC8CCC850590741335E0 /* Pods-Naviline_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Naviline_Example-dummy.m"; sourceTree = "<group>"; };
+		97479E0272B3D0B48B5E2751D70DAD56 /* Pods_Naviline_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Naviline_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DC70D9009548834E0B67A9F2BD24E7E /* Naviline.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = Naviline.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A290C396CE0FC87397AA2363DE65E51C /* Pods-Naviline_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Naviline_Tests-umbrella.h"; sourceTree = "<group>"; };
+		B062CCBF1E1975D3674B64C3C170D1D3 /* Pods-Naviline_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Naviline_Example-umbrella.h"; sourceTree = "<group>"; };
+		B3FDFE9A226B6246002437BA /* NavilineConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NavilineConfigurator.swift; path = Naviline/Classes/NavilineConfigurator.swift; sourceTree = "<group>"; };
+		B3FDFE9E226B624C002437BA /* house-black-silhouette-without-door.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "house-black-silhouette-without-door.pdf"; path = "Naviline/Assets/house-black-silhouette-without-door.pdf"; sourceTree = "<group>"; };
+		B44F046B4B7E7BDD0D22252346AD336B /* Pods-Naviline_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Naviline_Example.release.xcconfig"; sourceTree = "<group>"; };
+		BDFCFDB346597A3124569F024359B93D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D3CFC2FC3B62E68F4F0A3F78B0B8E88F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		DEEADF29A50A5384358CAC9FCA3AC48A /* Naviline-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Naviline-umbrella.h"; sourceTree = "<group>"; };
+		E10F1C60A3AEC05DA9D08B07D132204D /* Naviline-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Naviline-Info.plist"; sourceTree = "<group>"; };
+		E30ED86ABA32391FFADB5956B739FB28 /* Pods-Naviline_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Naviline_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E820497212D3854838C156FA37E3B208 /* Pods-Naviline_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Naviline_Tests.modulemap"; sourceTree = "<group>"; };
+		ED852DA50DBA52CE1BD8F14C6D1F401F /* Naviline.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Naviline.xcconfig; sourceTree = "<group>"; };
+		F002F86EC55C6689B72E63AE27733087 /* Pods-Naviline_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Naviline_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F625BFD822D738CE78D50294C51E3527 /* Naviline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Naviline.swift; path = Naviline/Classes/Naviline.swift; sourceTree = "<group>"; };
+		F69105235B2C0A6C1572C812522BA630 /* Pods-Naviline_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Naviline_Tests-Info.plist"; sourceTree = "<group>"; };
+		F737F38DC341D27248D679644458E121 /* Pods_Naviline_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Naviline_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49E4F41A08E10C31E36CE9D96F399F09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E041539C131CCFEC5D9983E1E1278EF4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0689542FDABE4D98EF5FB1AFACAFACA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92A77B57DF8A6A00DCBD10EF44AD7880 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3B099A0DB1CBDB1803BB370ED228FDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				098C2231313FCD9E779E7F885ABA2D34 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05B77BFF092FE50434534D50366EB293 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				208ACE856C1DDB5899525091B184423B /* Pods-Naviline_Example */,
+				35D49DD8DAAF5FCAA733D8041144CDAC /* Pods-Naviline_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		208ACE856C1DDB5899525091B184423B /* Pods-Naviline_Example */ = {
+			isa = PBXGroup;
+			children = (
+				70C9F97E92F4017B656A2CF13270D7E1 /* Pods-Naviline_Example.modulemap */,
+				8A6AADD6E038F98B841AD5D91EDF4F14 /* Pods-Naviline_Example-acknowledgements.markdown */,
+				41972FDD6D3962FDEDF86EF71BCF3BB2 /* Pods-Naviline_Example-acknowledgements.plist */,
+				8EA02C90CA2BAC8CCC850590741335E0 /* Pods-Naviline_Example-dummy.m */,
+				389D2B0802213CAA5383955A5609DB27 /* Pods-Naviline_Example-frameworks.sh */,
+				0EEF213B3B3C9660E1D710A56AB65039 /* Pods-Naviline_Example-Info.plist */,
+				B062CCBF1E1975D3674B64C3C170D1D3 /* Pods-Naviline_Example-umbrella.h */,
+				E30ED86ABA32391FFADB5956B739FB28 /* Pods-Naviline_Example.debug.xcconfig */,
+				B44F046B4B7E7BDD0D22252346AD336B /* Pods-Naviline_Example.release.xcconfig */,
+			);
+			name = "Pods-Naviline_Example";
+			path = "Target Support Files/Pods-Naviline_Example";
+			sourceTree = "<group>";
+		};
+		2514AC67E1B252C67FD6B521092E5A10 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D3CFC2FC3B62E68F4F0A3F78B0B8E88F /* LICENSE */,
+				9DC70D9009548834E0B67A9F2BD24E7E /* Naviline.podspec */,
+				BDFCFDB346597A3124569F024359B93D /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		2595D5A550A4F57BC57CCB675BE6D483 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3D64B3F7FCEA0D2CFD5934C6ECA23E82 /* Naviline */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		35D49DD8DAAF5FCAA733D8041144CDAC /* Pods-Naviline_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E820497212D3854838C156FA37E3B208 /* Pods-Naviline_Tests.modulemap */,
+				318DBDEF8FB693555483EB3CAFD1C742 /* Pods-Naviline_Tests-acknowledgements.markdown */,
+				F002F86EC55C6689B72E63AE27733087 /* Pods-Naviline_Tests-acknowledgements.plist */,
+				18B99B270D9AB3B0E775DB929A339771 /* Pods-Naviline_Tests-dummy.m */,
+				F69105235B2C0A6C1572C812522BA630 /* Pods-Naviline_Tests-Info.plist */,
+				A290C396CE0FC87397AA2363DE65E51C /* Pods-Naviline_Tests-umbrella.h */,
+				50737D0BBAA0CE7EF340CBA3F4895637 /* Pods-Naviline_Tests.debug.xcconfig */,
+				82D614BCE5AA5373C65ACED5F24B39C1 /* Pods-Naviline_Tests.release.xcconfig */,
+			);
+			name = "Pods-Naviline_Tests";
+			path = "Target Support Files/Pods-Naviline_Tests";
+			sourceTree = "<group>";
+		};
+		3D64B3F7FCEA0D2CFD5934C6ECA23E82 /* Naviline */ = {
+			isa = PBXGroup;
+			children = (
+				B3FDFE9E226B624C002437BA /* house-black-silhouette-without-door.pdf */,
+				B3FDFE9A226B6246002437BA /* NavilineConfigurator.swift */,
+				F625BFD822D738CE78D50294C51E3527 /* Naviline.swift */,
+				2514AC67E1B252C67FD6B521092E5A10 /* Pod */,
+				51F5E844B0162C510493824C4BF399AE /* Support Files */,
+			);
+			name = Naviline;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		51F5E844B0162C510493824C4BF399AE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				41D351B38B1541AF444E102FF5619B6A /* Naviline.modulemap */,
+				ED852DA50DBA52CE1BD8F14C6D1F401F /* Naviline.xcconfig */,
+				82657F2A099293FD0BE7B7D36DD2F751 /* Naviline-dummy.m */,
+				E10F1C60A3AEC05DA9D08B07D132204D /* Naviline-Info.plist */,
+				10E2E3756FC19EC96A9C74DD975C91B0 /* Naviline-prefix.pch */,
+				DEEADF29A50A5384358CAC9FCA3AC48A /* Naviline-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Naviline";
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				2595D5A550A4F57BC57CCB675BE6D483 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				F239CFD350F49AE538ECC1BB06E50977 /* Products */,
+				05B77BFF092FE50434534D50366EB293 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F239CFD350F49AE538ECC1BB06E50977 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E5327D4E0C5CDE990E18B01684252BB /* Naviline.framework */,
+				F737F38DC341D27248D679644458E121 /* Pods_Naviline_Example.framework */,
+				97479E0272B3D0B48B5E2751D70DAD56 /* Pods_Naviline_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A541235E256F3EE4CFA3FA0889A9206B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D89D24346F20F119DC942429B6F08EC7 /* Naviline-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B399CFAFFA422CB58EC8B58843E1A7A1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63DB7FE5864117115B1753E2D4FA3BF9 /* Pods-Naviline_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAEACE29489EF8804AA3096418932C40 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FE3380DD5A2A1C870E95A2E1BB2CF6E /* Pods-Naviline_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2A0B2C25D90FF2B1AFFA8DDE4C96DCE2 /* Naviline */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5D04C8B679B38F3AACCCAB2E1EF84E9 /* Build configuration list for PBXNativeTarget "Naviline" */;
+			buildPhases = (
+				A541235E256F3EE4CFA3FA0889A9206B /* Headers */,
+				DB15ADBDB6158DE2636730EC9C6C6EBB /* Sources */,
+				B3B099A0DB1CBDB1803BB370ED228FDD /* Frameworks */,
+				E104CC44ABE7B75798D69F3E426010A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Naviline;
+			productName = Naviline;
+			productReference = 2E5327D4E0C5CDE990E18B01684252BB /* Naviline.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		58F3FB34E9E5A6810E628252E425F56C /* Pods-Naviline_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89343E4E77F9B49F0AD5B6CBE76A3169 /* Build configuration list for PBXNativeTarget "Pods-Naviline_Example" */;
+			buildPhases = (
+				B399CFAFFA422CB58EC8B58843E1A7A1 /* Headers */,
+				2A5BCFD1DDBC42E7EA38C1A79B50BB37 /* Sources */,
+				49E4F41A08E10C31E36CE9D96F399F09 /* Frameworks */,
+				03225064992895A35323068A8AEA88EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69DFA34FE4CF1F1E2D5E9DC18ACEC365 /* PBXTargetDependency */,
+			);
+			name = "Pods-Naviline_Example";
+			productName = "Pods-Naviline_Example";
+			productReference = F737F38DC341D27248D679644458E121 /* Pods_Naviline_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F4F787129AD4DF2300F46C728C1DDD0E /* Pods-Naviline_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 690320973537746711BA40DF36DA5B30 /* Build configuration list for PBXNativeTarget "Pods-Naviline_Tests" */;
+			buildPhases = (
+				DAEACE29489EF8804AA3096418932C40 /* Headers */,
+				B534DA10D2C045A2F7AE62D4BC383CF5 /* Sources */,
+				A0689542FDABE4D98EF5FB1AFACAFACA /* Frameworks */,
+				5C4C1E9650F53C9FE106FEE17277D1C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9CE0BE650928D8B7B75E925AAE915398 /* PBXTargetDependency */,
+			);
+			name = "Pods-Naviline_Tests";
+			productName = "Pods-Naviline_Tests";
+			productReference = 97479E0272B3D0B48B5E2751D70DAD56 /* Pods_Naviline_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					58F3FB34E9E5A6810E628252E425F56C = {
+						LastSwiftMigration = 1010;
+					};
+					F4F787129AD4DF2300F46C728C1DDD0E = {
+						LastSwiftMigration = 1010;
+					};
+				};
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = F239CFD350F49AE538ECC1BB06E50977 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A0B2C25D90FF2B1AFFA8DDE4C96DCE2 /* Naviline */,
+				58F3FB34E9E5A6810E628252E425F56C /* Pods-Naviline_Example */,
+				F4F787129AD4DF2300F46C728C1DDD0E /* Pods-Naviline_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03225064992895A35323068A8AEA88EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3FDFEA0226B624C002437BA /* house-black-silhouette-without-door.pdf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C4C1E9650F53C9FE106FEE17277D1C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3FDFEA1226B624C002437BA /* house-black-silhouette-without-door.pdf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E104CC44ABE7B75798D69F3E426010A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3FDFE9F226B624C002437BA /* house-black-silhouette-without-door.pdf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A5BCFD1DDBC42E7EA38C1A79B50BB37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3FDFE9C226B6246002437BA /* NavilineConfigurator.swift in Sources */,
+				43F39C2C89511E72078742A60D7EA0F2 /* Pods-Naviline_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B534DA10D2C045A2F7AE62D4BC383CF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3FDFE9D226B6246002437BA /* NavilineConfigurator.swift in Sources */,
+				FA311C048AFA9F68C611E3968D48C73A /* Pods-Naviline_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB15ADBDB6158DE2636730EC9C6C6EBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7F86FD815FC7C37E4E383DD01658AB0 /* Naviline-dummy.m in Sources */,
+				9446BE73CB9515E682744AFFC588C337 /* Naviline.swift in Sources */,
+				B3FDFE9B226B6246002437BA /* NavilineConfigurator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		69DFA34FE4CF1F1E2D5E9DC18ACEC365 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Naviline;
+			target = 2A0B2C25D90FF2B1AFFA8DDE4C96DCE2 /* Naviline */;
+			targetProxy = 08E6109FB2BE90E4A8D995781C01A1DA /* PBXContainerItemProxy */;
+		};
+		9CE0BE650928D8B7B75E925AAE915398 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Naviline_Example";
+			target = 58F3FB34E9E5A6810E628252E425F56C /* Pods-Naviline_Example */;
+			targetProxy = 30C985EA00295E2C93749436517DDFC9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1324DBB03634F9FDF02576F6E4B3FDB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B44F046B4B7E7BDD0D22252346AD336B /* Pods-Naviline_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Naviline_Example/Pods-Naviline_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Naviline_Example/Pods-Naviline_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4C6EA5E461E9679A56AE1FD053D9FE46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82D614BCE5AA5373C65ACED5F24B39C1 /* Pods-Naviline_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Naviline_Tests/Pods-Naviline_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Naviline_Tests/Pods-Naviline_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7FDFE3A5FC8341CA70DE03A9107FD307 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50737D0BBAA0CE7EF340CBA3F4895637 /* Pods-Naviline_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Naviline_Tests/Pods-Naviline_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Naviline_Tests/Pods-Naviline_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		CBF0068E7B8F415B663C6A6951EEBCC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED852DA50DBA52CE1BD8F14C6D1F401F /* Naviline.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Naviline/Naviline-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Naviline/Naviline-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Naviline/Naviline.modulemap";
+				PRODUCT_MODULE_NAME = Naviline;
+				PRODUCT_NAME = Naviline;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D9DA54CB98DB6FFD89D0E766E34736CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E30ED86ABA32391FFADB5956B739FB28 /* Pods-Naviline_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Naviline_Example/Pods-Naviline_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Naviline_Example/Pods-Naviline_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DEF3B3A0E9E94104060E8D2DE27DC5E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED852DA50DBA52CE1BD8F14C6D1F401F /* Naviline.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Naviline/Naviline-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Naviline/Naviline-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Naviline/Naviline.modulemap";
+				PRODUCT_MODULE_NAME = Naviline;
+				PRODUCT_NAME = Naviline;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F232B5ECA11A71BFA199A229B323F454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */,
+				F232B5ECA11A71BFA199A229B323F454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		690320973537746711BA40DF36DA5B30 /* Build configuration list for PBXNativeTarget "Pods-Naviline_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FDFE3A5FC8341CA70DE03A9107FD307 /* Debug */,
+				4C6EA5E461E9679A56AE1FD053D9FE46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89343E4E77F9B49F0AD5B6CBE76A3169 /* Build configuration list for PBXNativeTarget "Pods-Naviline_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9DA54CB98DB6FFD89D0E766E34736CE /* Debug */,
+				1324DBB03634F9FDF02576F6E4B3FDB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5D04C8B679B38F3AACCCAB2E1EF84E9 /* Build configuration list for PBXNativeTarget "Naviline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBF0068E7B8F415B663C6A6951EEBCC9 /* Debug */,
+				DEF3B3A0E9E94104060E8D2DE27DC5E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Naviline",
+  "version": "0.1.0",
+  "summary": "A short description of Naviline.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Anton Rodzik/Naviline",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Anton Rodzik": "antrod1995@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Anton Rodzik/Naviline.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Naviline/Classes/**/*"
+}
