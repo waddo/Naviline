@@ -74,7 +74,11 @@ public final class Naviline: UIView {
         self.setup()
     }
     
-    convenience init(configurator: NavilineConfigurator = NavilineConfigurator.defaultConfigurator()) {
+    private init() {
+        super.init(frame: CGRect.zero)
+    }
+    
+    public convenience init(configurator: NavilineConfigurator = NavilineConfigurator.defaultConfigurator()) {
         self.init(frame: .zero)
         self.configurator = configurator
     }
