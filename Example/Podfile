@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Naviline_Example' do
+  pod 'Naviline', :path => '../'
+
+  target 'Naviline_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
