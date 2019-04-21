@@ -12,15 +12,14 @@ public typealias NavilineController = UIViewController & NavilineControllerProto
 public typealias NavilineContentController = UIViewController & NavilineContentControllerProtocol
 
 public protocol NavilineControllerProtocol: class {
-    var Naviline: Naviline { get }
+    var naviline: Naviline { get }
     var navigationContentView: UIView { get }
-    func prepareNaviline()
 }
 
 public protocol NavilineContentControllerProtocol: class {
     var navigationTitle: String { get }
     var navigationIndex: Int { get set }
-    var NavilineController: NavilineControllerProtocol? { get }
+    var navilineController: NavilineControllerProtocol? { get }
 }
 
 public final class Naviline: UIView {
@@ -71,19 +70,20 @@ public final class Naviline: UIView {
     
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
-        self.setup()
     }
     
-    private init() {
+    public init() {
         super.init(frame: CGRect.zero)
+        self.configurator = NavilineConfigurator.defaultConfigurator()
     }
     
-    public convenience init(configurator: NavilineConfigurator = NavilineConfigurator.defaultConfigurator()) {
+    public convenience init(configurator: NavilineConfigurator) {
         self.init(frame: .zero)
         self.configurator = configurator
     }
     
-    public func setup(with base: NavilineController? = nil) {
+    public func setup(with base: NavilineController,
+                      homeContentController: NavilineContentController) {
         
         self.base = base
         
@@ -111,6 +111,10 @@ public final class Naviline: UIView {
         contentView.heightAnchor.constraint(equalToConstant: height).isActive = true
         contentView.topAnchor.constraint(equalTo: scrollView.topAnchor).isActive = true
         contentView.bottomAnchor.constraint(equalTo: scrollView.bottomAnchor).isActive = true
+        
+        controllers.append(homeContentController)
+        homeContentController.navigationIndex = controllers.count
+        base.add(homeContentController, contentView: base.navigationContentView)
     }
     
     public func addController(_ controller: NavilineContentController) {

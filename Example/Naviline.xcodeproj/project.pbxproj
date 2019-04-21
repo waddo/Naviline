@@ -14,6 +14,7 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		B3FDFEAD226CA37E002437BA /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FDFEAC226CA37E002437BA /* ContentViewController.swift */; };
 		BA0FC3ABD4FB2F72AD5E50F9 /* Pods_Naviline_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C96CACBE326B92349B563C84 /* Pods_Naviline_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +44,7 @@
 		79AE4F08A1EAA0FFAB6D8B8F /* Pods-Naviline_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Naviline_Tests.release.xcconfig"; path = "Target Support Files/Pods-Naviline_Tests/Pods-Naviline_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		853EF1144B9EE3F90955B1A1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		990E9335F787BF1E1F9B3FF6 /* Pods_Naviline_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Naviline_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3FDFEAC226CA37E002437BA /* ContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
 		C4EDC3A534E5DCD88E317979 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C96CACBE326B92349B563C84 /* Pods_Naviline_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Naviline_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D50E89DD94AB07BCEE61F0D5 /* Pods-Naviline_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Naviline_Example.release.xcconfig"; path = "Target Support Files/Pods-Naviline_Example/Pods-Naviline_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
+				B3FDFEAC226CA37E002437BA /* ContentViewController.swift */,
 			);
 			name = "Example for Naviline";
 			path = Naviline;
@@ -335,6 +338,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				B3FDFEAD226CA37E002437BA /* ContentViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

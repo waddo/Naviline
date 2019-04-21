@@ -7,14 +7,15 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'Naviline'
-  s.version          = '0.1.3'
-  s.summary          = 'Naviline is a useful stack for one-screen navigation.'
-  s.homepage         = 'https://github.com/waddo/Naviline'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Anton Rodzik' => 'antrod1995@gmail.com' }
-  s.source           = { :git => 'https://github.com/waddo/Naviline.git', :tag => s.version.to_s }
+  s.name = 'Naviline'
+  s.version = '0.1.4'
+  s.summary = 'Naviline is a useful stack for one-screen navigation.'
+  s.homepage = 'https://github.com/waddo/Naviline'
+  s.license = { :type => 'MIT', :file => 'LICENSE' }
+  s.author = { 'Anton Rodzik' => 'antrod1995@gmail.com' }
+  s.source = { :git => 'https://github.com/waddo/Naviline.git', :tag => s.version.to_s }
   s.ios.deployment_target = '9.0'
   s.swift_version = '4.2'
   s.source_files = 'Naviline/Classes/**/*'
+  s.resources = 'Naviline/Assets/*'
 end

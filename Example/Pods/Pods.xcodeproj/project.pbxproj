@@ -16,9 +16,11 @@
 		B3FDFE9B226B6246002437BA /* NavilineConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FDFE9A226B6246002437BA /* NavilineConfigurator.swift */; };
 		B3FDFE9C226B6246002437BA /* NavilineConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FDFE9A226B6246002437BA /* NavilineConfigurator.swift */; };
 		B3FDFE9D226B6246002437BA /* NavilineConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FDFE9A226B6246002437BA /* NavilineConfigurator.swift */; };
-		B3FDFE9F226B624C002437BA /* house-black-silhouette-without-door.pdf in Resources */ = {isa = PBXBuildFile; fileRef = B3FDFE9E226B624C002437BA /* house-black-silhouette-without-door.pdf */; };
-		B3FDFEA0226B624C002437BA /* house-black-silhouette-without-door.pdf in Resources */ = {isa = PBXBuildFile; fileRef = B3FDFE9E226B624C002437BA /* house-black-silhouette-without-door.pdf */; };
-		B3FDFEA1226B624C002437BA /* house-black-silhouette-without-door.pdf in Resources */ = {isa = PBXBuildFile; fileRef = B3FDFE9E226B624C002437BA /* house-black-silhouette-without-door.pdf */; };
+		B3FDFEA7226C9EE2002437BA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3FDFEA6226C9EE1002437BA /* Images.xcassets */; };
+		B3FDFEA8226C9EE2002437BA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3FDFEA6226C9EE1002437BA /* Images.xcassets */; };
+		B3FDFEA9226C9EE2002437BA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3FDFEA6226C9EE1002437BA /* Images.xcassets */; };
+		B3FDFEAA226CA238002437BA /* Naviline.swift in Sources */ = {isa = PBXBuildFile; fileRef = F625BFD822D738CE78D50294C51E3527 /* Naviline.swift */; };
+		B3FDFEAB226CA239002437BA /* Naviline.swift in Sources */ = {isa = PBXBuildFile; fileRef = F625BFD822D738CE78D50294C51E3527 /* Naviline.swift */; };
 		D7F86FD815FC7C37E4E383DD01658AB0 /* Naviline-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 82657F2A099293FD0BE7B7D36DD2F751 /* Naviline-dummy.m */; };
 		D89D24346F20F119DC942429B6F08EC7 /* Naviline-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DEEADF29A50A5384358CAC9FCA3AC48A /* Naviline-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E041539C131CCFEC5D9983E1E1278EF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
@@ -63,7 +65,7 @@
 		A290C396CE0FC87397AA2363DE65E51C /* Pods-Naviline_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Naviline_Tests-umbrella.h"; sourceTree = "<group>"; };
 		B062CCBF1E1975D3674B64C3C170D1D3 /* Pods-Naviline_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Naviline_Example-umbrella.h"; sourceTree = "<group>"; };
 		B3FDFE9A226B6246002437BA /* NavilineConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NavilineConfigurator.swift; path = Naviline/Classes/NavilineConfigurator.swift; sourceTree = "<group>"; };
-		B3FDFE9E226B624C002437BA /* house-black-silhouette-without-door.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "house-black-silhouette-without-door.pdf"; path = "Naviline/Assets/house-black-silhouette-without-door.pdf"; sourceTree = "<group>"; };
+		B3FDFEA6226C9EE1002437BA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Naviline/Assets/Images.xcassets; sourceTree = "<group>"; };
 		B44F046B4B7E7BDD0D22252346AD336B /* Pods-Naviline_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Naviline_Example.release.xcconfig"; sourceTree = "<group>"; };
 		BDFCFDB346597A3124569F024359B93D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -170,7 +172,7 @@
 		3D64B3F7FCEA0D2CFD5934C6ECA23E82 /* Naviline */ = {
 			isa = PBXGroup;
 			children = (
-				B3FDFE9E226B624C002437BA /* house-black-silhouette-without-door.pdf */,
+				B3FDFEA6226C9EE1002437BA /* Images.xcassets */,
 				B3FDFE9A226B6246002437BA /* NavilineConfigurator.swift */,
 				F625BFD822D738CE78D50294C51E3527 /* Naviline.swift */,
 				2514AC67E1B252C67FD6B521092E5A10 /* Pod */,
@@ -358,7 +360,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3FDFEA0226B624C002437BA /* house-black-silhouette-without-door.pdf in Resources */,
+				B3FDFEA8226C9EE2002437BA /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,7 +368,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3FDFEA1226B624C002437BA /* house-black-silhouette-without-door.pdf in Resources */,
+				B3FDFEA9226C9EE2002437BA /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,7 +376,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3FDFE9F226B624C002437BA /* house-black-silhouette-without-door.pdf in Resources */,
+				B3FDFEA7226C9EE2002437BA /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,6 +389,7 @@
 			files = (
 				B3FDFE9C226B6246002437BA /* NavilineConfigurator.swift in Sources */,
 				43F39C2C89511E72078742A60D7EA0F2 /* Pods-Naviline_Example-dummy.m in Sources */,
+				B3FDFEAA226CA238002437BA /* Naviline.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,6 +399,7 @@
 			files = (
 				B3FDFE9D226B6246002437BA /* NavilineConfigurator.swift in Sources */,
 				FA311C048AFA9F68C611E3968D48C73A /* Pods-Naviline_Tests-dummy.m in Sources */,
+				B3FDFEAB226CA239002437BA /* Naviline.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
