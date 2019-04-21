@@ -1,15 +1,51 @@
 # Naviline
 
-[![CI Status](https://img.shields.io/travis/Anton Rodzik/Naviline.svg?style=flat)](https://travis-ci.org/Anton Rodzik/Naviline)
+Naviline is useful navigation stack to create path structure in your app.
+
 [![Version](https://img.shields.io/cocoapods/v/Naviline.svg?style=flat)](https://cocoapods.org/pods/Naviline)
 [![License](https://img.shields.io/cocoapods/l/Naviline.svg?style=flat)](https://cocoapods.org/pods/Naviline)
 [![Platform](https://img.shields.io/cocoapods/p/Naviline.svg?style=flat)](https://cocoapods.org/pods/Naviline)
 
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+Base controller where you want to add Naviline should be NavilineController subclass.
 
-## Requirements
+```
+class ViewController: NavilineController {
+
+    var naviline: Naviline
+    var navigationContentView: UIView
+
+    init() {
+        let configurator = NavilineConfigurator.defaultConfigurator()
+        configurator.colors[.backgroundColor] = .red
+        configurator.colors[.homeBackgroundColor] = .red
+        configurator.colors[.selectedTextColor] = .blue
+        configurator.colors[.textColor] = .white
+
+        configurator.fonts[.boldFont] = UIFont.boldSystemFont(ofSize: 14.0)
+        configurator.fonts[.regularFont] = UIFont.systemFont(ofSize: 14.0)
+
+        configurator.height = 44.0
+
+        self.naviline = Naviline(configurator: configurator)
+        self.navigationContentView = UIView()
+
+        super.init(nibName: nil, bundle: nil)
+    }
+    
+    ...
+    
+}
+```
+
+Every content view controller should be NavilineContentController subclass. 
+After initialisation call setup method to set base controller for Naviline and set home content controller.
+```
+    naviline.setup(with: self, homeContentController: ContentViewController(index: naviline.size,
+    title: "Controller \(naviline.size)"))
+```
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Installation
 
@@ -22,7 +58,7 @@ pod 'Naviline'
 
 ## Author
 
-Anton Rodzik, antrod1995@gmail.com
+Anton Rodzik
 
 ## License
 
