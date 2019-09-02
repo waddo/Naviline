@@ -11,17 +11,14 @@ import Naviline
 
 class ContentViewController: NavilineContentController {
     
-    var navigationTitle: String
-    
     var navigationIndex: Int
     
     var navilineController: NavilineControllerProtocol?
     
     let label = UILabel()
     
-    init(index: Int, title: String) {
+    init(index: Int) {
         self.navigationIndex = index
-        self.navigationTitle = title
         super.init(nibName: nil, bundle: nil)
     }
     
@@ -33,11 +30,16 @@ class ContentViewController: NavilineContentController {
         super.viewDidLoad()
         view.backgroundColor = .white
         view.addSubview(label)
-        label.text = self.navigationTitle
+        label.text = self.navigationTitle()
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         label.frame = view.bounds
     }
+    
+    func navigationTitle() -> String {
+        return "Controller \(navigationIndex)"
+    }
+
 }

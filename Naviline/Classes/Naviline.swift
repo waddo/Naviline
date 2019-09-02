@@ -14,12 +14,15 @@ public typealias NavilineContentController = UIViewController & NavilineContentC
 public protocol NavilineControllerProtocol: class {
     var naviline: Naviline { get }
     var navigationContentView: UIView { get }
+    
+    func prepareHomeController()
+    func prepareNestedController(index: Int)
 }
 
 public protocol NavilineContentControllerProtocol: class {
-    var navigationTitle: String { get }
-    var navigationIndex: Int { get set }
     var navilineController: NavilineControllerProtocol? { get }
+    
+    func navigationTitle() -> String
 }
 
 public final class Naviline: UIView {
@@ -113,20 +116,19 @@ public final class Naviline: UIView {
         contentView.bottomAnchor.constraint(equalTo: scrollView.bottomAnchor).isActive = true
         
         controllers.append(homeContentController)
-        homeContentController.navigationIndex = controllers.count
         base.add(homeContentController, contentView: base.navigationContentView)
+        base.prepareHomeController()
     }
     
     public func addController(_ controller: NavilineContentController) {
         controllers.append(controller)
-        controller.navigationIndex = controllers.count
         base?.add(controller, contentView: base?.navigationContentView)
         guard controllers.count > 1 else { return }
         let button: UIButton = {
             let button = UIButton()
             button.backgroundColor = configurator.colors[.backgroundColor]
             button.contentEdgeInsets = UIEdgeInsets(top: 0, left: 12, bottom: 0, right: 12)
-            button.setTitle(controller.navigationTitle, for: .normal)
+            button.setTitle(controller.navigationTitle(), for: .normal)
             button.layer.applySketchShadow(alpha: 0.15,
                                            x: 3,
                                            y: 0,
@@ -138,10 +140,14 @@ public final class Naviline: UIView {
             return button
         }()
         addButton(button: button)
+        base?.prepareNestedController(index: button.tag)
     }
     
     @objc func removeAllAfter(_ sender: UIButton) {
         let index = sender.tag
+        if index == 0 {
+            base?.prepareHomeController()
+        }
         guard index < controllers.count else { return }
         for i in stride(from: controllers.count - 1, to: index, by: -1) {
             let controller = controllers[i]

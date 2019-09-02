@@ -56,8 +56,7 @@ class ViewController: NavilineController {
         super.viewDidLoad()
         button.backgroundColor = .gray
         button.addTarget(self, action: #selector(showNextController), for: .touchUpInside)
-        naviline.setup(with: self, homeContentController: ContentViewController(index: naviline.size,
-                                                                                title: "Controller \(naviline.size)"))
+        naviline.setup(with: self, homeContentController: ContentViewController(index: naviline.size))
         view.addSubview(naviline)
         view.addSubview(navigationContentView)
         view.addSubview(button)
@@ -79,12 +78,20 @@ class ViewController: NavilineController {
     }
 
     @objc func showNextController() {
-        naviline.addController(ContentViewController(index: naviline.size, title: "Controller \(naviline.size)"))
+        naviline.addController(ContentViewController(index: naviline.size))
     }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+
+    func prepareHomeController() {
+        naviline.isHidden = true
+    }
+    
+    func prepareNestedController(index: Int) {
+        naviline.isHidden = false
     }
 
 }
