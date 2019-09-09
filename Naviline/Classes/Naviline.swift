@@ -101,7 +101,7 @@ public final class Naviline: UIView {
         homeButton.leftAnchor.constraint(equalTo: leftAnchor, constant: 0).isActive = true
         homeButton.topAnchor.constraint(equalTo: topAnchor, constant: 0).isActive = true
         homeButton.bottomAnchor.constraint(equalTo: bottomAnchor, constant: 0).isActive = true
-        homeButton.widthAnchor.constraint(equalToConstant: 49.0).isActive = true
+        homeButton.widthAnchor.constraint(equalToConstant: configurator.height).isActive = true
 
         scrollView.leftAnchor.constraint(equalTo: homeButton.rightAnchor, constant: 0).isActive = true
         scrollView.rightAnchor.constraint(equalTo: rightAnchor, constant: 0).isActive = true
@@ -192,10 +192,10 @@ public final class Naviline: UIView {
     private func updateButtons() {
         homeButton.tintColor = buttons.count > 0 ? configurator.colors[.textColor] : configurator.colors[.selectedTextColor]
         for button in buttons {
-            button.titleLabel?.font = UIFont.systemFont(ofSize: 10)
+            button.titleLabel?.font = configurator.fonts[.regularFont]
             button.setTitleColor(configurator.colors[.textColor], for: .normal)
         }
-        buttons.last?.titleLabel?.font = UIFont.boldSystemFont(ofSize: 10)
+        buttons.last?.titleLabel?.font = configurator.fonts[.boldFont]
         buttons.last?.setTitleColor(configurator.colors[.selectedTextColor], for: .normal)
     }
     
@@ -241,7 +241,6 @@ fileprivate extension UIViewController {
         view.addSubview(child.view)
         constraintViewEqual(holderView: view, view: child.view)
         child.didMove(toParent: self)
-        child.willMove(toParent: self)
     }
     
     func remove() {

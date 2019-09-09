@@ -42,7 +42,7 @@ public final class NavilineConfigurator {
     }
 
     public var homeIcon: UIImage? = NavilineConfigurator.bundledImage(named: "house-black-silhouette-without-door")
-    
+
     public static func defaultConfigurator() -> NavilineConfigurator {
         return NavilineConfigurator()
     }
