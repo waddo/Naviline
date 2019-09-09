@@ -16,7 +16,7 @@ public protocol NavilineControllerProtocol: class {
     var navigationContentView: UIView { get }
     
     func prepareHomeController()
-    func prepareNestedController()
+    func prepareNestedController(index: Int)
 }
 
 public protocol NavilineContentControllerProtocol: class {
@@ -140,7 +140,7 @@ public final class Naviline: UIView {
             return button
         }()
         addButton(button: button)
-        base?.prepareNestedController()
+        base?.prepareNestedController(index: button.tag)
     }
     
     @objc func removeAllAfter(_ sender: UIButton) {

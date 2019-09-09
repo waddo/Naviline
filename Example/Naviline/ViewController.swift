@@ -90,7 +90,7 @@ class ViewController: NavilineController {
         naviline.isHidden = true
     }
     
-    func prepareNestedController() {
+    func prepareNestedController(index: Int) {
         naviline.isHidden = false
     }
 
