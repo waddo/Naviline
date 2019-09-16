@@ -39,8 +39,6 @@ public final class Naviline: UIView {
     
     private var homeButton: UIButton = {
         let button = UIButton()
-        button.imageEdgeInsets = UIEdgeInsets(top: 0, left: 17, bottom: 0, right: 17)
-        button.imageView?.contentMode = .scaleAspectFit
         button.addTarget(self, action: #selector(remove(_:)), for: .touchUpInside)
         button.layer.applySketchShadow(alpha: 0.15,
                                        x: 3,
@@ -93,6 +91,8 @@ public final class Naviline: UIView {
         homeButton.backgroundColor = configurator.colors[.homeBackgroundColor]
         homeButton.tintColor = configurator.colors[.selectedTextColor]
         homeButton.setImage(configurator.homeIcon, for: .normal)
+        homeButton.imageEdgeInsets = configurator.homeIconInsets
+        homeButton.imageView?.contentMode = configurator.homeIconContentMode
 
         addSubview(scrollView)
         scrollView.addSubview(contentView)

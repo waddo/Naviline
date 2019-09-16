@@ -33,6 +33,7 @@ public final class NavilineConfigurator {
     
     public var height: CGFloat = 25.0
 
+
     private static func bundledImage(named: String) -> UIImage? {
         let image = UIImage(named: named)
         if image == nil {
@@ -42,6 +43,8 @@ public final class NavilineConfigurator {
     }
 
     public var homeIcon: UIImage? = NavilineConfigurator.bundledImage(named: "house-black-silhouette-without-door")
+    public var homeIconInsets: UIEdgeInsets = UIEdgeInsets(top: 0, left: 17.0, bottom: 0, right: 17.0)
+    public var homeIconContentMode: UIView.ContentMode = .scaleAspectFit
 
     public static func defaultConfigurator() -> NavilineConfigurator {
         return NavilineConfigurator()

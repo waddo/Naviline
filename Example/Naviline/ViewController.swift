@@ -78,6 +78,9 @@ class ViewController: NavilineController {
     }
 
     @objc func showNextController() {
+        if naviline.size > 4 {
+            naviline.removeAllAfter(0)
+        }
         naviline.addController(ContentViewController(index: naviline.size))
     }
     
