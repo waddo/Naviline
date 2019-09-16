@@ -41,7 +41,7 @@ public final class Naviline: UIView {
         let button = UIButton()
         button.imageEdgeInsets = UIEdgeInsets(top: 0, left: 17, bottom: 0, right: 17)
         button.imageView?.contentMode = .scaleAspectFit
-        button.addTarget(self, action: #selector(removeAllAfter(_:)), for: .touchUpInside)
+        button.addTarget(self, action: #selector(remove(_:)), for: .touchUpInside)
         button.layer.applySketchShadow(alpha: 0.15,
                                        x: 3,
                                        y: 0,
@@ -135,7 +135,7 @@ public final class Naviline: UIView {
                                            blur: 5,
                                            spread: 0)
             button.tag = buttons.count + 1
-            button.addTarget(self, action: #selector(removeAllAfter(_:)), for: .touchUpInside)
+            button.addTarget(self, action: #selector(remove(_:)), for: .touchUpInside)
             button.translatesAutoresizingMaskIntoConstraints = false
             return button
         }()
@@ -143,8 +143,7 @@ public final class Naviline: UIView {
         base?.prepareNestedController(index: button.tag)
     }
     
-    @objc func removeAllAfter(_ sender: UIButton) {
-        let index = sender.tag
+    public func removeAllAfter(_ index: Int) {
         if index == 0 {
             base?.prepareHomeController()
         }
@@ -155,6 +154,11 @@ public final class Naviline: UIView {
             removeButton()
             controllers.removeLast()
         }
+    }
+    
+    @objc func remove(_ sender: UIButton) {
+        let index = sender.tag
+        removeAllAfter(index)
     }
     
     private func addButton(button: UIButton) {
