@@ -23,7 +23,7 @@ class ViewController: NavilineController {
         configurator.colors[.selectedTextColor] = .blue
         configurator.colors[.textColor] = .white
 
-        configurator.fonts[.boldFont] = UIFont.boldSystemFont(ofSize: 14.0)
+        configurator.fonts[.boldFont] = UIFont.boldSystemFont(ofSize: 16.0)
         configurator.fonts[.regularFont] = UIFont.systemFont(ofSize: 14.0)
 
         configurator.height = 44.0
@@ -42,9 +42,12 @@ class ViewController: NavilineController {
 Every content view controller should be NavilineContentController subclass. 
 After initialisation call setup method to set base controller for Naviline and set home content controller.
 ```
-    naviline.setup(with: self, homeContentController: ContentViewController(index: naviline.size,
-    title: "Controller \(naviline.size)"))
+    let contentController = ContentViewController(index: naviline.size, title: "Title")
+    contentController.navilineController = self
+    naviline.setup(with: self, homeContentController: contentController)
 ```
+Don't forget to set frames/constraints for naviline and navigationContentView and add them as subviews. In reason of Naviline great flexibility you should do additional work to place UI components on the screen. 
+
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Installation
