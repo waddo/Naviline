@@ -101,7 +101,7 @@ public final class Naviline: UIView {
         homeButton.leftAnchor.constraint(equalTo: leftAnchor, constant: 0).isActive = true
         homeButton.topAnchor.constraint(equalTo: topAnchor, constant: 0).isActive = true
         homeButton.bottomAnchor.constraint(equalTo: bottomAnchor, constant: 0).isActive = true
-        homeButton.widthAnchor.constraint(equalToConstant: configurator.height).isActive = true
+        homeButton.widthAnchor.constraint(equalToConstant: configurator.width ?? configurator.height).isActive = true
 
         scrollView.leftAnchor.constraint(equalTo: homeButton.rightAnchor, constant: 0).isActive = true
         scrollView.rightAnchor.constraint(equalTo: rightAnchor, constant: 0).isActive = true
@@ -129,11 +129,13 @@ public final class Naviline: UIView {
             button.backgroundColor = configurator.colors[.backgroundColor]
             button.contentEdgeInsets = UIEdgeInsets(top: 0, left: 12, bottom: 0, right: 12)
             button.setTitle(controller.navigationTitle(), for: .normal)
-            button.layer.applySketchShadow(alpha: 0.15,
-                                           x: 3,
-                                           y: 0,
-                                           blur: 5,
-                                           spread: 0)
+            if configurator.shouldUseShadow {
+                button.layer.applySketchShadow(alpha: 0.15,
+                                               x: 3,
+                                               y: 0,
+                                               blur: 5,
+                                               spread: 0)
+            }
             button.tag = buttons.count + 1
             button.addTarget(self, action: #selector(remove(_:)), for: .touchUpInside)
             button.translatesAutoresizingMaskIntoConstraints = false

@@ -31,9 +31,12 @@ public final class NavilineConfigurator {
         .regularFont: UIFont.systemFont(ofSize: 10),
         .boldFont: UIFont.boldSystemFont(ofSize: 10)]
     
+    // By default, width == height
+    public var width: CGFloat?
     public var height: CGFloat = 25.0
-
-
+    
+    public var shouldUseShadow: Bool = true
+    
     private static func bundledImage(named: String) -> UIImage? {
         let image = UIImage(named: named)
         if image == nil {
